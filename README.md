@@ -1,58 +1,72 @@
-# Online XOX Game Backend
+# Online XOX Game - Backend Service 🎮
 
-## Product Requirements Document (PRD)
+[![Node.js](https://img.shields.io/badge/Node.js-18.x-339933?logo=node.js)](https://nodejs.org)
+[![Express.js](https://img.shields.io/badge/Express.js-4.x-000000?logo=express)](https://expressjs.com)
+[![Socket.IO](https://img.shields.io/badge/Socket.IO-4.x-010101?logo=socket.io)](https://socket.io)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript)](https://typescriptlang.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-### Overview
-This is the backend service for an online Tic-tac-toe (XOX) game implemented using Node.js and Socket.IO, designed to work with a Flutter mobile frontend. The service enables real-time multiplayer gameplay, matchmaking, and game state management with emphasis on mobile-specific requirements.
+Real-time multiplayer Tic-tac-toe game server built with Node.js and Socket.IO. Designed to work seamlessly with the Flutter mobile client.
 
-### Technical Stack
-- **Backend:**
-  - Node.js
-  - Express.js
-  - Socket.IO (WebSocket implementation)
-- **Frontend:**
-  - Flutter (Mobile UI framework)
-- **Dependencies:**
-  - express (Web framework)
-  - socket.io (WebSocket implementation)
-  - uuid (Unique ID generation)
-  - winston (Logging)
+## ✨ Features
 
-### Core Features
+- 🎮 Real-time multiplayer gameplay
+- 🔄 WebSocket-based communication
+- 🎯 Game session management
+- 🛡️ Move validation
+- 🔌 Reconnection support
+- 🧹 Automatic cleanup
 
-#### 1. Game Management
-- Create new game sessions with unique IDs for invitations
-- Join existing game sessions using game IDs
-- Handle game state updates and move validation
-- Check win conditions
-- Automatic game cleanup after completion
-- Memory-only storage (no persistent database)
+## 🛠️ Tech Stack
 
-#### 2. Player Management
-- Handle player connections and disconnections gracefully
-- Support for game cancellation
-- Handle app closure/background states
-- Proper cleanup of abandoned games
-- Reconnection support for temporary disconnections
+- **Runtime:** Node.js
+- **Framework:** Express.js
+- **WebSocket:** Socket.IO
+- **Language:** TypeScript
+- **Logging:** Winston
+- **Utils:** UUID
 
-#### 3. WebSocket Features
-- Real-time game updates and board synchronization
-- Move validation and error reporting
-- Game state broadcasts
-- Connection health monitoring
-- Socket room management with cleanup
+## 🏗️ Project Structure
 
-#### 4. Game Flow Control
-- Validate all moves server-side
-- Send error messages for invalid moves
-- Track and broadcast game status changes
-- Determine and announce winner
-- Enable new game creation after completion
-- Automatic resource cleanup
+```
+backend/
+├── src/
+│   ├── config/        # Configuration
+│   ├── models/        # Data models
+│   ├── services/      # Business logic
+│   ├── types/         # TypeScript types
+│   ├── utils/         # Utilities
+│   └── app.ts         # App entry
+├── package.json
+└── tsconfig.json
+```
 
-### API Endpoints
+## 🚀 Getting Started
 
-#### WebSocket Events
+1. **Clone and Install**
+   ```bash
+   npm install
+   ```
+
+2. **Environment Setup**
+   ```bash
+   cp .env.example .env
+   ```
+
+3. **Development**
+   ```bash
+   npm run dev
+   ```
+
+4. **Production**
+   ```bash
+   npm run build
+   npm start
+   ```
+
+## 📡 WebSocket Events
+
+### Server to Client
 ```typescript
 interface ServerToClientEvents {
   game_update: (data: GameState) => void;
@@ -63,7 +77,10 @@ interface ServerToClientEvents {
   error: (data: { message: string, code: string }) => void;
   move_error: (data: { message: string }) => void;
 }
+```
 
+### Client to Server
+```typescript
 interface ClientToServerEvents {
   create_game: (data: { playerName: string }) => void;
   join_game: (data: { gameId: string, playerName: string }) => void;
@@ -74,148 +91,51 @@ interface ClientToServerEvents {
 }
 ```
 
-#### HTTP Endpoints
-- `POST /api/game/create`: Create a new game session
-- `POST /api/game/join/:gameId`: Join an existing game
-- `GET /api/game/:gameId`: Get game status
+## 🎯 Game Rules
 
-### Data Structures
+1. Two players take turns (X and O)
+2. First to get 3 in a row wins
+3. Game ends on:
+   - Win condition met
+   - Board full (draw)
+   - Player disconnection
+   - Game cancellation
 
-#### Game State
-```typescript
-interface GameState {
-  gameId: string;
-  board: Array<Array<string>>;
-  currentTurn: string;
-  player1: string;
-  player2: string;
-  status: GameStatus;
-  winner?: string;
-  playerNames: { [key: string]: string };
-  createdAt: Date;
-  updatedAt: Date;
-}
+## 📱 Mobile Support
 
-enum GameStatus {
-  WAITING = 'waiting',
-  PLAYING = 'playing',
-  FINISHED = 'finished'
-}
-```
+- App lifecycle handling
+- Efficient reconnection
+- Network state management
+- Background state handling
 
-#### Player Move
-```typescript
-interface PlayerMove {
-  gameId: string;
-  playerId: string;
-  position: {
-    row: number;
-    col: number;
-  };
-}
-```
+## 🔧 Available Scripts
 
-### Game Rules
-1. Two players take turns marking spaces on a 3x3 grid
-2. First player uses "X", second player uses "O"
-3. Game ends when:
-   - One player gets three marks in a row (horizontal, vertical, or diagonal)
-   - Board is full (draw)
-   - Player disconnects (opponent wins)
-   - Player cancels the game
-   - App is closed or put in background for extended period
-
-### Error Handling
-- Invalid moves with specific error messages
-- Connection issues and reconnection logic
-- Game session cleanup
-- Player timeout and disconnection
-- App state changes (background/foreground)
-- Invalid game ID handling
-- Duplicate join attempts
-
-### Mobile-Specific Considerations
-1. Handle app lifecycle states:
-   - App in background
-   - App termination
-   - Network changes
-2. Efficient socket reconnection
-3. UI state synchronization
-4. Error message localization support
-5. Optimized data transfer for mobile networks
-
-### Performance Requirements
-- Support multiple concurrent games
-- Low latency for real-time updates
-- Efficient game state management
-- Graceful handling of disconnections
-
-### Project Structure
-```
-backend/
-├── src/
-│   ├── config/
-│   │   └── index.ts
-│   ├── models/
-│   │   ├── Game.ts
-│   │   └── Player.ts
-│   ├── services/
-│   │   ├── GameService.ts
-│   │   └── SocketService.ts
-│   ├── types/
-│   │   └── index.ts
-│   ├── utils/
-│   │   ├── logger.ts
-│   │   └── validators.ts
-│   └── app.ts
-├── package.json
-├── tsconfig.json
-└── README.md
-```
-
-### Development Setup
-1. Install dependencies:
-```bash
-npm install
-```
-
-2. Create environment file:
-```bash
-cp .env.example .env
-```
-
-3. Start development server:
-```bash
-npm run dev
-```
-
-4. For production:
-```bash
-npm run build
-npm start
-```
-
-### Scripts
 ```json
 {
-  "scripts": {
-    "dev": "ts-node-dev --respawn --transpile-only src/app.ts",
-    "build": "tsc",
-    "start": "node dist/app.js",
-    "lint": "eslint . --ext .ts",
-    "format": "prettier --write \"src/**/*.ts\""
-  }
+  "dev": "ts-node-dev --respawn src/app.ts",
+  "build": "tsc",
+  "start": "node dist/app.js",
+  "lint": "eslint . --ext .ts",
+  "format": "prettier --write \"src/**/*.ts\""
 }
 ```
 
-### Testing with Flutter Client
-1. Ensure backend is running
-2. Update Flutter client with correct WebSocket URL
-3. Test all game scenarios:
-   - Game creation
-   - Game joining
-   - Move making
-   - Error handling
+## 🧪 Testing
+
+To test with Flutter client:
+
+1. Start the backend server
+2. Configure client WebSocket URL
+3. Test scenarios:
+   - Game creation/joining
+   - Move validation
    - Disconnection handling
    - Game completion
-   - New game after completion
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
