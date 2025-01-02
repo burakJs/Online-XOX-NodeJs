@@ -1,0 +1,97 @@
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-01-01T16:31:41.759Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-01-01T16:31:45.175Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-01-01T17:09:09.045Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-01-01T17:56:44.158Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-01-01T18:01:20.758Z"}
+{"level":"info","message":"Client connected: lCnda1heNaUEL9BiAAAB","timestamp":"2025-01-01T18:05:36.706Z"}
+{"level":"info","message":"Client connected: 6ZpFM2qmOgEikkQFAAAD","timestamp":"2025-01-01T18:05:37.237Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-01-01T18:05:44.167Z"}
+{"level":"info","message":"Client connected: 71NP7hQQL_aRIAXhAAAB","timestamp":"2025-01-01T18:05:44.670Z"}
+{"level":"info","message":"Client connected: FcFT1afbA7RNaJ-lAAAD","timestamp":"2025-01-01T18:05:44.736Z"}
+{"level":"info","message":"Game created: b826a617-fc73-4a9d-a26a-2ea769707269 by player: de2eb0ed-f44c-4af8-851a-35100c5a7963","timestamp":"2025-01-01T18:05:45.562Z"}
+{"level":"info","message":"Game created: b826a617-fc73-4a9d-a26a-2ea769707269 by player: de2eb0ed-f44c-4af8-851a-35100c5a7963","timestamp":"2025-01-01T18:05:45.564Z"}
+{"level":"info","message":"Player 348557fd-d4c2-4f8d-a1f7-fa6e879d3aed joined game b826a617-fc73-4a9d-a26a-2ea769707269","timestamp":"2025-01-01T18:05:51.262Z"}
+{"level":"info","message":"Player 348557fd-d4c2-4f8d-a1f7-fa6e879d3aed joined game b826a617-fc73-4a9d-a26a-2ea769707269","timestamp":"2025-01-01T18:05:51.264Z"}
+{"level":"info","message":"Client disconnected: FcFT1afbA7RNaJ-lAAAD","timestamp":"2025-01-01T18:05:59.266Z"}
+{"level":"info","message":"Client disconnected: 71NP7hQQL_aRIAXhAAAB","timestamp":"2025-01-01T18:05:59.312Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-01-01T22:37:12.410Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-01-01T22:41:05.331Z"}
+{"level":"info","message":"Client connected: oso-bJP-3MWaGXhDAAAB","timestamp":"2025-01-01T22:41:15.573Z"}
+{"level":"info","message":"Game created: e5ea30d3-744a-4bdc-9ec2-97a9d858a335 by player: 1a1718a2-fc83-48f3-ac05-3f39ee1431dd","timestamp":"2025-01-01T22:41:15.582Z"}
+{"level":"info","message":"Game created: e5ea30d3-744a-4bdc-9ec2-97a9d858a335 by player: 1a1718a2-fc83-48f3-ac05-3f39ee1431dd","timestamp":"2025-01-01T22:41:15.583Z"}
+{"level":"info","message":"Client disconnected: oso-bJP-3MWaGXhDAAAB","timestamp":"2025-01-01T22:53:12.342Z"}
+{"level":"info","message":"Server running on http://localhost:3000","timestamp":"2025-01-01T22:57:53.273Z"}
+{"level":"info","message":"Client connected: HeMR0Xuezjc5vw8iAAAB","timestamp":"2025-01-01T23:02:04.593Z"}
+{"level":"info","message":"Game created: 46c4c95d-b736-4c83-8f66-73342e0c2c29 by player: 47eadbd9-dd49-4e08-bdf3-26c8635f34e4","timestamp":"2025-01-01T23:02:04.600Z"}
+{"level":"info","message":"Game created: 46c4c95d-b736-4c83-8f66-73342e0c2c29 by player: 47eadbd9-dd49-4e08-bdf3-26c8635f34e4","timestamp":"2025-01-01T23:02:04.600Z"}
+{"level":"info","message":"Client connected: OHi5qgwOP--He6xqAAAD","timestamp":"2025-01-01T23:02:09.916Z"}
+{"level":"info","message":"Player 0cd0ab76-b2d3-4dda-b884-72fef28edb34 joined game 46c4c95d-b736-4c83-8f66-73342e0c2c29","timestamp":"2025-01-01T23:02:09.919Z"}
+{"level":"info","message":"Player 0cd0ab76-b2d3-4dda-b884-72fef28edb34 joined game 46c4c95d-b736-4c83-8f66-73342e0c2c29","timestamp":"2025-01-01T23:02:09.923Z"}
+{"level":"info","message":"Client disconnected: HeMR0Xuezjc5vw8iAAAB","timestamp":"2025-01-01T23:04:58.597Z"}
+{"level":"info","message":"Client disconnected: OHi5qgwOP--He6xqAAAD","timestamp":"2025-01-01T23:04:59.443Z"}
+{"level":"info","message":"Client connected: DcUpqZJBavoFGffSAAAF","timestamp":"2025-01-01T23:05:05.193Z"}
+{"level":"info","message":"Game created: a24331ad-916f-4e4f-b0ba-faae5ea91e22 by player: 537ebc15-29ae-4dcd-9705-58b6d76790a0","timestamp":"2025-01-01T23:05:05.196Z"}
+{"level":"info","message":"Game created: a24331ad-916f-4e4f-b0ba-faae5ea91e22 by player: 537ebc15-29ae-4dcd-9705-58b6d76790a0","timestamp":"2025-01-01T23:05:05.197Z"}
+{"level":"info","message":"Client connected: Zy7RgeYrBiELYfOzAAAH","timestamp":"2025-01-01T23:05:09.941Z"}
+{"level":"info","message":"Player 88491677-0f63-40de-a852-ed145c51f9f0 joined game a24331ad-916f-4e4f-b0ba-faae5ea91e22","timestamp":"2025-01-01T23:05:09.944Z"}
+{"level":"info","message":"Player 88491677-0f63-40de-a852-ed145c51f9f0 joined game a24331ad-916f-4e4f-b0ba-faae5ea91e22","timestamp":"2025-01-01T23:05:09.944Z"}
+{"level":"info","message":"Move made in game a24331ad-916f-4e4f-b0ba-faae5ea91e22 by player 537ebc15-29ae-4dcd-9705-58b6d76790a0","timestamp":"2025-01-01T23:05:11.237Z"}
+{"level":"info","message":"Move made in game a24331ad-916f-4e4f-b0ba-faae5ea91e22 by player 88491677-0f63-40de-a852-ed145c51f9f0","timestamp":"2025-01-01T23:05:12.699Z"}
+{"level":"info","message":"Move made in game a24331ad-916f-4e4f-b0ba-faae5ea91e22 by player 537ebc15-29ae-4dcd-9705-58b6d76790a0","timestamp":"2025-01-01T23:05:13.511Z"}
+{"level":"info","message":"Move made in game a24331ad-916f-4e4f-b0ba-faae5ea91e22 by player 88491677-0f63-40de-a852-ed145c51f9f0","timestamp":"2025-01-01T23:05:14.138Z"}
+{"level":"info","message":"Move made in game a24331ad-916f-4e4f-b0ba-faae5ea91e22 by player 537ebc15-29ae-4dcd-9705-58b6d76790a0","timestamp":"2025-01-01T23:05:14.983Z"}
+{"level":"info","message":"Game a24331ad-916f-4e4f-b0ba-faae5ea91e22 cleaned up","timestamp":"2025-01-01T23:05:19.985Z"}
+{"level":"info","message":"Client disconnected: DcUpqZJBavoFGffSAAAF","timestamp":"2025-01-01T23:09:49.031Z"}
+{"level":"info","message":"Client disconnected: Zy7RgeYrBiELYfOzAAAH","timestamp":"2025-01-01T23:09:49.780Z"}
+{"level":"info","message":"Client connected: LL_tuAYFRyXEqQePAAAJ","timestamp":"2025-01-01T23:09:53.307Z"}
+{"level":"info","message":"Game created: 94251682-8c92-49f5-a471-e38cc9d80f13 by player: ef86e5d7-fa9e-48f5-a05a-dc6de0f428d4","timestamp":"2025-01-01T23:09:53.310Z"}
+{"level":"info","message":"Game created: 94251682-8c92-49f5-a471-e38cc9d80f13 by player: ef86e5d7-fa9e-48f5-a05a-dc6de0f428d4","timestamp":"2025-01-01T23:09:53.311Z"}
+{"level":"info","message":"Client connected: yiYq5baly-UQq87DAAAL","timestamp":"2025-01-01T23:09:58.665Z"}
+{"level":"info","message":"Player 53836f20-a2f8-4a6b-bcc3-5fbef8aec571 joined game 94251682-8c92-49f5-a471-e38cc9d80f13","timestamp":"2025-01-01T23:09:58.667Z"}
+{"level":"info","message":"Player 53836f20-a2f8-4a6b-bcc3-5fbef8aec571 joined game 94251682-8c92-49f5-a471-e38cc9d80f13","timestamp":"2025-01-01T23:09:58.668Z"}
+{"level":"info","message":"Move made in game 94251682-8c92-49f5-a471-e38cc9d80f13 by player ef86e5d7-fa9e-48f5-a05a-dc6de0f428d4","timestamp":"2025-01-01T23:10:01.702Z"}
+{"level":"info","message":"Move made in game 94251682-8c92-49f5-a471-e38cc9d80f13 by player 53836f20-a2f8-4a6b-bcc3-5fbef8aec571","timestamp":"2025-01-01T23:10:06.672Z"}
+{"level":"info","message":"Move made in game 94251682-8c92-49f5-a471-e38cc9d80f13 by player ef86e5d7-fa9e-48f5-a05a-dc6de0f428d4","timestamp":"2025-01-01T23:10:07.767Z"}
+{"level":"info","message":"Move made in game 94251682-8c92-49f5-a471-e38cc9d80f13 by player 53836f20-a2f8-4a6b-bcc3-5fbef8aec571","timestamp":"2025-01-01T23:10:08.730Z"}
+{"level":"info","message":"Move made in game 94251682-8c92-49f5-a471-e38cc9d80f13 by player ef86e5d7-fa9e-48f5-a05a-dc6de0f428d4","timestamp":"2025-01-01T23:10:09.618Z"}
+{"level":"info","message":"Game 94251682-8c92-49f5-a471-e38cc9d80f13 cleaned up","timestamp":"2025-01-01T23:10:14.620Z"}
+{"level":"info","message":"Client disconnected: LL_tuAYFRyXEqQePAAAJ","timestamp":"2025-01-01T23:10:14.624Z"}
+{"level":"info","message":"Client disconnected: yiYq5baly-UQq87DAAAL","timestamp":"2025-01-01T23:10:15.469Z"}
+{"level":"info","message":"Client connected: tjImmTmHr8_6ayl_AAAN","timestamp":"2025-01-01T23:10:16.806Z"}
+{"level":"info","message":"Game created: 2a413f94-b3b2-43cc-9ec3-678d56d7f252 by player: 4d002a86-fced-42e8-a3a4-05f828965c26","timestamp":"2025-01-01T23:10:16.806Z"}
+{"level":"info","message":"Game created: 2a413f94-b3b2-43cc-9ec3-678d56d7f252 by player: 4d002a86-fced-42e8-a3a4-05f828965c26","timestamp":"2025-01-01T23:10:16.807Z"}
+{"level":"info","message":"Client connected: MuoYGf86JAoSkXKxAAAP","timestamp":"2025-01-01T23:10:21.840Z"}
+{"level":"info","message":"Player a063b3fe-bd7b-454a-947b-322f34ed622d joined game 2a413f94-b3b2-43cc-9ec3-678d56d7f252","timestamp":"2025-01-01T23:10:21.840Z"}
+{"level":"info","message":"Player a063b3fe-bd7b-454a-947b-322f34ed622d joined game 2a413f94-b3b2-43cc-9ec3-678d56d7f252","timestamp":"2025-01-01T23:10:21.841Z"}
+{"level":"info","message":"Move made in game 2a413f94-b3b2-43cc-9ec3-678d56d7f252 by player 4d002a86-fced-42e8-a3a4-05f828965c26","timestamp":"2025-01-01T23:10:23.218Z"}
+{"level":"info","message":"Move made in game 2a413f94-b3b2-43cc-9ec3-678d56d7f252 by player a063b3fe-bd7b-454a-947b-322f34ed622d","timestamp":"2025-01-01T23:10:24.267Z"}
+{"level":"info","message":"Move made in game 2a413f94-b3b2-43cc-9ec3-678d56d7f252 by player 4d002a86-fced-42e8-a3a4-05f828965c26","timestamp":"2025-01-01T23:10:24.984Z"}
+{"level":"info","message":"Move made in game 2a413f94-b3b2-43cc-9ec3-678d56d7f252 by player a063b3fe-bd7b-454a-947b-322f34ed622d","timestamp":"2025-01-01T23:10:25.717Z"}
+{"level":"info","message":"Move made in game 2a413f94-b3b2-43cc-9ec3-678d56d7f252 by player 4d002a86-fced-42e8-a3a4-05f828965c26","timestamp":"2025-01-01T23:10:26.438Z"}
+{"level":"info","message":"Client disconnected: tjImmTmHr8_6ayl_AAAN","timestamp":"2025-01-01T23:10:27.787Z"}
+{"level":"info","message":"Client disconnected: MuoYGf86JAoSkXKxAAAP","timestamp":"2025-01-01T23:10:30.510Z"}
+{"level":"info","message":"Client connected: wZpyG_uJRdrqXAoLAAAR","timestamp":"2025-01-01T23:10:31.256Z"}
+{"level":"info","message":"Game created: f17038cb-1a3f-4c6b-8323-70c6cbc7048a by player: 21e64575-0f83-46d0-aee4-1527c2780609","timestamp":"2025-01-01T23:10:31.257Z"}
+{"level":"info","message":"Game created: f17038cb-1a3f-4c6b-8323-70c6cbc7048a by player: 21e64575-0f83-46d0-aee4-1527c2780609","timestamp":"2025-01-01T23:10:31.258Z"}
+{"level":"info","message":"Game 2a413f94-b3b2-43cc-9ec3-678d56d7f252 cleaned up","timestamp":"2025-01-01T23:10:31.440Z"}
+{"level":"info","message":"Client connected: g81FLgtIPfKQLQOZAAAT","timestamp":"2025-01-01T23:10:38.652Z"}
+{"level":"info","message":"Player e6883236-6227-45a5-8fc9-1a092f97cba4 joined game f17038cb-1a3f-4c6b-8323-70c6cbc7048a","timestamp":"2025-01-01T23:10:38.653Z"}
+{"level":"info","message":"Player e6883236-6227-45a5-8fc9-1a092f97cba4 joined game f17038cb-1a3f-4c6b-8323-70c6cbc7048a","timestamp":"2025-01-01T23:10:38.653Z"}
+{"level":"info","message":"Client disconnected: wZpyG_uJRdrqXAoLAAAR","timestamp":"2025-01-01T23:10:39.959Z"}
+{"level":"info","message":"Client disconnected: g81FLgtIPfKQLQOZAAAT","timestamp":"2025-01-01T23:10:44.099Z"}
+{"level":"info","message":"Client connected: ST4oTRwxdJHHDx-QAAAV","timestamp":"2025-01-01T23:15:12.678Z"}
+{"level":"info","message":"Game created: 73083618-5556-4443-926c-17b6c0c93ba4 by player: 1c036bce-95eb-4c21-a2d9-d74611bfaeb3","timestamp":"2025-01-01T23:15:12.681Z"}
+{"level":"info","message":"Game created: 73083618-5556-4443-926c-17b6c0c93ba4 by player: 1c036bce-95eb-4c21-a2d9-d74611bfaeb3","timestamp":"2025-01-01T23:15:12.681Z"}
+{"level":"info","message":"Client connected: MxhOHGH-na0r4jzeAAAX","timestamp":"2025-01-01T23:15:17.723Z"}
+{"level":"info","message":"Player bc64b056-4b8c-404e-8e74-b7c6f38eaedb joined game 73083618-5556-4443-926c-17b6c0c93ba4","timestamp":"2025-01-01T23:15:17.726Z"}
+{"level":"info","message":"Player bc64b056-4b8c-404e-8e74-b7c6f38eaedb joined game 73083618-5556-4443-926c-17b6c0c93ba4","timestamp":"2025-01-01T23:15:17.726Z"}
+{"level":"info","message":"Move made in game 73083618-5556-4443-926c-17b6c0c93ba4 by player 1c036bce-95eb-4c21-a2d9-d74611bfaeb3","timestamp":"2025-01-01T23:15:19.059Z"}
+{"level":"info","message":"Move made in game 73083618-5556-4443-926c-17b6c0c93ba4 by player bc64b056-4b8c-404e-8e74-b7c6f38eaedb","timestamp":"2025-01-01T23:15:22.043Z"}
+{"level":"info","message":"Move made in game 73083618-5556-4443-926c-17b6c0c93ba4 by player 1c036bce-95eb-4c21-a2d9-d74611bfaeb3","timestamp":"2025-01-01T23:15:22.724Z"}
+{"level":"info","message":"Move made in game 73083618-5556-4443-926c-17b6c0c93ba4 by player bc64b056-4b8c-404e-8e74-b7c6f38eaedb","timestamp":"2025-01-01T23:15:23.531Z"}
+{"level":"info","message":"Move made in game 73083618-5556-4443-926c-17b6c0c93ba4 by player 1c036bce-95eb-4c21-a2d9-d74611bfaeb3","timestamp":"2025-01-01T23:15:25.691Z"}
+{"level":"info","message":"Move made in game 73083618-5556-4443-926c-17b6c0c93ba4 by player bc64b056-4b8c-404e-8e74-b7c6f38eaedb","timestamp":"2025-01-01T23:15:26.525Z"}
+{"level":"info","message":"Move made in game 73083618-5556-4443-926c-17b6c0c93ba4 by player 1c036bce-95eb-4c21-a2d9-d74611bfaeb3","timestamp":"2025-01-01T23:15:27.358Z"}
+{"level":"info","message":"Client disconnected: ST4oTRwxdJHHDx-QAAAV","timestamp":"2025-01-01T23:15:29.062Z"}
+{"level":"info","message":"Client disconnected: MxhOHGH-na0r4jzeAAAX","timestamp":"2025-01-01T23:15:30.889Z"}
+{"level":"info","message":"Game 73083618-5556-4443-926c-17b6c0c93ba4 cleaned up","timestamp":"2025-01-01T23:15:32.360Z"}
